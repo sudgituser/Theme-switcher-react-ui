@@ -1,0 +1,201 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  height: 500px;
+  overflow: scroll;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#regContainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#logincontainer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#regform {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: lightyellow;
+  width: 600px;
+  height: 250px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+#logform {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: lightyellow;
+  width: 500px;
+  height: 250px;
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+#regform input {
+  margin: 5px;
+  width: 90%;
+}
+
+#logform input {
+  margin: 5px;
+  width: 90%;
+}
+
+#altlog {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 600px;
+  background-color: lightyellow;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+#logpg {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-color: none;
+  text-align: center;
+}
+.lbl {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+
+#logme {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 20%;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-color: none;
+  text-align: center;
+}
+
+#regsw {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  width: 500px;
+  background-color: lightyellow;
+  border-bottom: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+#regp {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 40%;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-color: none;
+  text-align: center;
+}
+
+#regbtn {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  width: 30%;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-color: none;
+  text-align: center;
+}
+
+.containerreg {
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  background-color: lightgreen;
+}
+.containerlog {
+  position: relative;
+  height: 1000px;
+  width: 100%;
+  background-color: lightgreen;
+}
+
+.hd1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: black;
+  color: white;
+  height: 3%;
+  text-align: center;
+}
+.ttl {
+  height: 100%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+#thms {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+}

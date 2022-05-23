@@ -54,7 +54,7 @@ const Home = ({ data }) => {
             <div className="dropdown-content">
               {themes.map((item) => {
                 return (
-                  <a href="#" onClick={(e) => handleclick(e)}>
+                  <a key={item} href="#" onClick={(e) => handleclick(e)}>
                     {item}
                   </a>
                 );
